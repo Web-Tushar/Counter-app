@@ -1,0 +1,27 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.container{
+     width: 600px;
+     margin: 0 auto;
+     
+}
+
+#service{
+     margin: 30px;
+}
+
+.service_wrapper{
+     display: flex;
+     gap: 40px;
+}
+.service_item{
+     border: 5px solid black;
+     width: 120px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
